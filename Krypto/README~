@@ -1,0 +1,16 @@
+This android app is based on Image Processing, OCR and Speech API.
+
+Functionalities:
+1.  Imagica : Allows the user to take an image of the text to be read using phones camera, the image is cleaned and adjusted using opencv image processing library, to make it can be more efficiently read by the Tessaract API. The data from the image is converted to text, using Tessaract API. The user can now get info (meaning, synonym, pronounciation) about a particular word in the text by selecting and clicking on it and can also hear to the entire text.
+
+2.  Phonoholic : If a user is Confused with the pronounciation of the word, he/she can just type the word and click on 'speak' button to know its pronounciation. (this feature uses google speech API)
+
+3.  Scribbling : If a user finds himself confused with the spelling of a word, then speak the word and the spelling will be displyed on the screen.
+
+
+Modules and libraries used:
+1.  Google speech Api
+2.  Opencv for android
+3.  tessaract OCR engine for android
+4.  Volley library
+5.  SQLite database
